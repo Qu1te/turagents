@@ -1,0 +1,25 @@
+.header{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    color: black;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+}
+
+.buttonNav{
+    position: fixed;
+    top: 25px;
+    left: 460px;
+    font-size: 30px;
+    border: 0;
+    background-color: gainsboro;
+    width: 200px;
+}
