@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    width: 100%;
+    height: 1818px;
+}
+
+.header{
+    background-color: aquamarine;
+    height: 400px;
+    width: 100%;
+}
+
+.navPanel{
+    height: 100px;
+}
+
+.headerLeft{
+    height: 100px;
+    width: 50%;
+}
+
+.list{
+    display: flex;
+    flex-direction:row ;
+}
+
+.list li {
+    margin-left: 10px;
+    list-style: none;
+}
