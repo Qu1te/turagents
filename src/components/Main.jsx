@@ -1,8 +1,10 @@
-import React from "react";
+import React , {useState} from "react";
 import "../components/Main.css"
 import Head from "../img/gg.jpg"
 import logo from "../img/logo.png"
 const Main = () => {
+
+
     return (
        <div className="Main">
             <div className="header">
@@ -38,15 +40,18 @@ const Main = () => {
                 </div>
 
                 <div className="header-footer">
-                    <button>откуда</button>
-                    <button>куда</button>
-                    <button>дата</button>
-                    <button>пасажиров</button>
+                    <button className="dropbtn">откуда</button>
+                    <button className="dropbtn">куда</button>
+                    <button className="dropbtn">дата</button>
+                    <button className="dropbtn">пасажиров</button>
                     <button className="search">найти</button>
                 </div>
             </div>
             <div className="center">
                 
+            </div>
+            <div className="footer">
+                <p>gg</p>
             </div>
        </div>
     )
