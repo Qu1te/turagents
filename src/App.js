@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Second from './components/second';
 import Main from './components/Main';
+
 function App() {
- const router = createBrowserRouter([
+  const router = createBrowserRouter([
     {
       path: "/",
       element: <Main/>,
