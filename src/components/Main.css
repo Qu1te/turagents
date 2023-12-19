@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/gg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: 100px;
+}
+
+.logo{
+    width: 140px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 30px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.nav-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 120px;
+}
+
+.signUp{
+    width: 106px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E6ECF2;
+    color: #2B6BB2;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    margin-top: 50px;
+}
+
+.From-here-to-here {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.button-nav{
+    display: flex;
+}
+
+.From-here-to-here input{
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.From-here-to-here button{
+    border-radius: 10px;
+    border: 0;
+    background-color: #2b6bb2;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+
