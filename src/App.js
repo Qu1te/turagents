@@ -3,13 +3,27 @@ import './App.css';
 import Second from './components/second';
 import Main from './components/Main';
 function App() {
+ const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main/>,
+    },
+    {
+      path: '/second',
+      element: <Second/>,
+      children: [
+        {
+          path: 'FJM',
+          element: <div>Second/1</div>
+        }
+      ]
+    }
+  ]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-         <Second/>
-        <Main/>
-      </header>
-    </div>
+    <>
+        <RouterProvider router={router} />
+    </>
   );
 }
 
