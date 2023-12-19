@@ -5,7 +5,7 @@ import Head from "../img/gg.jpg"
 import logo from "../img/logo.png"
 const Main = () => {
     return (
-            <div className="container">
+        <div className="container">
                 <div className="navigation">
                     <div className="nav-left">
                         <div className="logo">
