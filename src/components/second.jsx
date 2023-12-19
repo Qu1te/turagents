@@ -3,22 +3,29 @@ import './second.css';
 
 const Second = () => {
     return (
-        <div className="header">
-            <div className="headerLeft">
-                <a href="">
-                    <img src="" alt="" />
-                </a>
+        <div className="Header">
+            <div className="navigation">
+                <div className="nav-left">
+                    <div className="logo">
+                        <a href="">
+                        <img src="" alt="" />
+                        </a>
+                    </div>
+                    <nav className="nav-menu">
+                        <ul className="menu">
+                            <li>Туры</li>
+                            <li>Круизы</li>
+                            <li>О нас</li>
+                            <li>Контакты</li>
+                            <li>Виза</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div className="nav-right">
+                    <h2>+7 776 444 3693</h2>
+                    <button>Войти</button>
+                </div>
 
-                <nav>
-                    <ul className="li">
-                        <li><a href="#">Туры</a></li>
-                        <li><a href="#">Круизы</a></li>
-                        <li><a href="#">О компании</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#">Виза</a></li>
-                    </ul>
-                    <p className="phone"><a href="https://pornhub.com" target="_blank">+7 800 555 3535</a></p>
-                </nav>
             </div>
         </div>
     )
