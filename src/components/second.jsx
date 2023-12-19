@@ -13,16 +13,16 @@ const Second = () => {
                     </div>
                     <nav className="nav-menu">
                         <ul className="menu">
-                            <li>Туры</li>
-                            <li>Круизы</li>
-                            <li>О нас</li>
-                            <li>Контакты</li>
-                            <li>Виза</li>
+                            <li><b>Туры</b></li>
+                            <li><b>Круизы</b></li>
+                            <li><b>О нас</b></li>
+                            <li><b>Контакты</b></li>
+                            <li><b>Виза</b></li>
                         </ul>
                     </nav>
                 </div>
                 <div className="nav-right">
-                    <h2>+7 776 444 3693</h2>
+                    <h2>+7 800 555 3535</h2>
                     <button>Войти</button>
                 </div>
 
