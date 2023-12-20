@@ -22,7 +22,7 @@ const Second = () => {
                     </nav>
                 </div>
                 <div className="nav-right">
-                    <h2><a className="Number" href="https://www.youtube.com/watch?v=f8hdBhCnyDY">+7 800 555 3535</a></h2>
+                    <h2><a className="Number" href="https://www.youtube.com/watch?v=BXVWeexuaZs">+7 800 555 3535</a></h2>
                     <button>Войти</button>      
                 </div>
 
