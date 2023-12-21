@@ -1,10 +1,9 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Second from './components/second';
-import Main from './components/Main';
-
+import Second from './components/second/second';
+import Main from './components/main/Main';
+import {createBrowserRouter,RouterProvider} from "react-router-dom"
 function App() {
-  const router = createBrowserRouter([
+ const router = createBrowserRouter([
     {
       path: "/",
       element: <Main/>,
