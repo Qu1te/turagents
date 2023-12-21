@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/gg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.navigation{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	background-color: transparent;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.nav-left{
+	width: 50%;
+	height: auto;
+	display: flex;
+	margin-left: 100px;
+}
+
+.logo{
+	width: 140px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo a {
+	text-decoration: none;
+	color: white;
+}
+
+.list{
+	display: flex;
+	list-style: none;
+	font-size: medium;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	float: left;
+	margin-left: 30px;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.nav-right{
+	width: 50%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	margin-right: 120px;
+}
+
+.signUp{
+	width: 106px;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+	background-color: #E6ECF2;
+	color: #2B6BB2;
+	font-size: medium;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.Box{
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signInBox{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	color:gainsboro;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.hederbox{
+	display: flex;
+	justify-content: end;
+}
+
+.hederbox button{
+	width: 40px;
+	height: 20px;
+	background: transparent;
+	border: 0;
+	font-size: medium;
+	font-weight: 100;
+	margin: 0;
+}
+
+.hederbox button:hover{
+	border: 1px solid gainsboro;
+	background-color: whitesmoke;
+}
+
+.centerBoxSignIn{
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.centerBoxSignIn input{
+	width: 90%;
+	height: 40px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+.centerBoxSignIn input:focus{
+	outline: none;
+  	border-color: #a1cefd; /* Цвет обводки при фокусировке */
+  	box-shadow: 0 0 15px #7eb4ee; 
+}
+
+.centerBoxSignIn button{
+	width: 150px;
+	height: 40px;
+	margin-top: 60px;
+	border: 0;
+	background: linear-gradient(to right, #3a7cf7, #3c87eb);
+	color: white;
+	font-weight:bold;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.centerBoxSignIn button:hover{
+	width: 155px;
+	height: 45px;
+}
+
+.centerBoxSignIn h2{
+	margin-bottom: 30px;
+}
+
+.quote{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:500px;
+	margin-top: 50px;
+}
+
+.From-here-to-here {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.button-nav{
+	display: flex;
+}
+
+.From-here-to-here input{
+	border-radius: 10px;
+	border: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	height: 50px;
+	width: 150px;
+	margin-left: 30px;
+	cursor:pointer;
+}
+
+.From-here-to-here button{
+	border-radius: 10px;
+	border: 0;
+	background-color: #2b6bb2;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	height: 50px;
+	width: 150px;
+	margin-left: 30px;
+	cursor:pointer;
+}
+
+
