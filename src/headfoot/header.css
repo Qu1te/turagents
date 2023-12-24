@@ -1,0 +1,91 @@
+.header{
+    background-color: #206efa;
+}
+
+.logo{
+    margin-left:20px ;
+}
+
+.navigation{
+    width: 100%;
+    height:130px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-left{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 140px;
+    height: 100px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu li {
+    margin-left: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.nav-right{
+    display: flex;
+    height: auto;
+    
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.nav-right h2{
+    color: white;
+    cursor: pointer;
+}
+
+.nav-right button {
+    width: 100px;
+    height: 60px;
+    font-size: medium;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 70px;
+    background-color: rgb(255, 94, 0); 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.nav-right button:hover{
+    background-color: rgb(230, 84, 0);
+}
+
+.number{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 40px;
+}
