@@ -65,7 +65,7 @@ const Footer = () =>{
                 <a target="_blank" rel="noopener noreferrer" href="#">Статус обслуживания</a>
               </li>
               <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                <a href="#">Отзовы</a></li>
+                <a href="#">Отзывы</a></li>
             </ul>
           </div>
         </div>
