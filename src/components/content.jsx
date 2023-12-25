@@ -1,4 +1,5 @@
 import React ,{useState}from "react";
+import {Link} from "react-router-dom"
 import data from "../server/data";
 const Content = () => {
 
@@ -28,7 +29,9 @@ const Content = () => {
 								<div className="card-body">
 									<h5 className="card-title">{item.title}</h5>
 									<p className="card-price">{item.price}</p>
+									<button><Link to="/Login">Подробнее</Link></button>
 								</div>
+
 							</div>
 						</div>
 					)

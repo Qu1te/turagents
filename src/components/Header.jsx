@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BurgerMenu from "../pages/additional/NavBar";
 const Header = () => {
 
 
@@ -7,6 +8,7 @@ const Header = () => {
         <header>
             <div className="Headercontent">
                 <div className="navigation-left">
+                    <BurgerMenu/>
                     <nav className="navigation">
                         <ul>
                             <li>Туры</li>
